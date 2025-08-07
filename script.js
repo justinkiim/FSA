@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Exams in order and your progress (1 = complete, 0 = not yet)
     const exams = ['FM', 'P', 'FAM', 'ATLAM/ASTAM', 'SRM', 
                    'PA'];
-    const completion = [1, 1, 0, 0, 0, 0, 0, 0, 0, 0]; // Example completion data
+    const completion = [1, 1, 0, 0, 0, 0]; // Example completion data
 
     // Calculate cumulative progress percentage
     const totalExams = completion.length;
