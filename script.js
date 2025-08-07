@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const ctx = chartCanvas.getContext("2d");
 
     // Exams in order and your progress (1 = complete, 0 = not yet)
-    const exams = ['FM', 'P', 'FAM', 'ATLAM', 'SRM', 
+    const exams = ['FM', 'P', 'FAM', 'ATLAM/ASTAM', 'SRM', 
                    'PA'];
     const completion = [1, 1, 0, 0, 0, 0, 0, 0, 0, 0]; // Example completion data
 
